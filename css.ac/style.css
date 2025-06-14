@@ -1,0 +1,134 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* estilo de body*/
+
+.hero-image { 
+    flex: 1;
+    text-align: justify;
+}
+.hero img { max-width: 100%;
+    border-radius: 10px;
+}
+
+body{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient( to bottom right, white, green);
+    color: #333;
+    line-height: 1.6;
+}
+header{ 
+    background: linear-gradient( to right, rgb(165, 165, 229), rgb(3, 104, 12));
+    color: black;
+    padding: 1.2rem 2rem;
+} 
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-ink{
+    display: flex;
+    gap: 1.5rem;
+    list-style:none;
+}
+
+.nav-ink a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-ink a:hover{ color : red} 
+
+.logo{ 
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+ 
+.main-grid{ 
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(145deg #ffff, #e6f0ff);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px black(0,0,0,0.1);
+}
+
+.hero-text{ flex: 1;
+    padding-right: 2.5rem;
+}
+.hero-text h2{
+    font-size: 3rem;
+    color: rgb(2, 49, 49);
+
+}
+.hero-text p {
+    margin-top: 0.5rem;
+}
+
+
+/* html about*/
+
+.btn {  
+background-color: #007bff;
+color: #ffffff;
+border: none;
+padding: 10px 20px;
+font-size:  16px;
+cursor: pointer;
+text-decoration: solid;
+border-radius: 5px;
+}
+.btn:hover{ 
+    background-color: #0056b3;
+ }
+/* carusel about*/
+.container {
+    justify-content: center;
+}
+.carousel-item image { 
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    margin: 20px;   
+}
+.carousel-item {
+    text-align: center;
+}
+/* footer botones redes*/
+
+.red-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boton-red-social { 
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+.boton-red-social:hover{ 
+    background-color: #555;
+}
+.fa {
+    font-size: 35px;
+}
